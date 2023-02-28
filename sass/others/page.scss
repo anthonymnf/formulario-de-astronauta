@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(../../Imagens/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: $background-color;
+  width: 35%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.toplogo {
+  width: 185px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.btnsend {
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover {
+    color: white;
+    background-color: $button-color;
+  }
+}
+
+.fotter {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+@media (min-width: 2450px) {
+  .container1 {
+    width: 80%;
+  }
+  body {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .container1 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 426px) {
+  .container1 {
+    width: 80%;
+  }
+}
